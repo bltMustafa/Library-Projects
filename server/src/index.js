@@ -1,9 +1,6 @@
 const express = require("express");
-const apicache = require("apicache");
-const bodyParser = require("body-parser");
-const cors = require("cors");
-
 const app = express();
+const cors = require("cors");
 const PORT = process.env.PORT || 2080;
 
 app.use(cors());
@@ -23,10 +20,7 @@ app.get("/api/v1/favoriteBooks", (req, res) => {
   }
 });
 
-const cache = apicache.middleware;
-
-app.use(bodyParser.json());
-app.use(cache("2 minutes"));
+app.use(express.json());
 app.use("/api/v1/favoriteBooks", v1BookRouter);
 
 app.listen(PORT, () => {

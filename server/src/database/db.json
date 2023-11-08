@@ -1,13 +1,6 @@
 {
   "favoriteBooks": [
     {
-      "title": "The Rough Guide to Seoul (Travel Guide eBook)",
-      "thumbnail": "http://books.google.com/books/content?id=np6WDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-      "id": "2cd75c77-157a-42ad-ba06-482475aba11b",
-      "createdAt": "10/19/2023, 9:55:55 PM",
-      "updatedAt": "10/19/2023, 9:55:55 PM"
-    },
-    {
       "title": "Self-Improvement-111",
       "thumbnail": "http://books.google.com/books/content?id=-58jJWsKeTYC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
       "id": "12f8e382-e94f-4bbb-a8ed-e96556e0c49b",

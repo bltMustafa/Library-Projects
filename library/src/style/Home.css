@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  position: relative;
+  min-height: 60vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+.container input {
+  width: 250px;
+  padding: 10px;
+  border-radius: 7px;
+  border: none;
+  font-size: 16px;
+}
+
+.search-submit {
+  position: absolute;
+  margin-top: 5px;
+  cursor: pointer;
+  border: none;
+  background: none;
+}

@@ -71,7 +71,7 @@ function Explore() {
 
         try {
           const response = await axios.post(
-            "https://library-projects.vercel.app/api/v1/favoriteBooks",
+            "http://localhost:2080/api/v1/favoriteBooks",
             favoriteBook
           );
           console.log("Kitap favorilere eklendi.", response.data);

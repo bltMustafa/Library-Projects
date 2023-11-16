@@ -36,7 +36,7 @@ function BookItem({
             thumbnail,
           };
           const response = await axios.post(
-            "https://library-server-two.vercel.app/api/v1/favoriteBooks",
+            "http://localhost:2080/api/v1/favoriteBooks",
             favoriteBook
           );
           console.log("The book has been added to favorites.", response.data);

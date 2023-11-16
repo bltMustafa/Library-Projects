@@ -21,7 +21,7 @@ function FavoriteBook() {
   const fetchFavoriteBooks = async () => {
     try {
       const response = await axios.get(
-        "https://library-projects.vercel.app/api/v1/favoriteBooks"
+        "http://localhost:2080/api/v1/favoriteBooks"
       );
       if (response.status === 200) {
         const favoriteBooksData = response.data.favoriteBooks;
@@ -42,13 +42,14 @@ function FavoriteBook() {
   const handleDeleteClick = async (bookId: string) => {
     try {
       const response = await axios.delete(
-        `https://library-projects.vercel.app/api/v1/favoriteBooks/${bookId}`
+        `http://localhost:2080/api/v1/favoriteBooks/${bookId}`
       );
-
+      console.log("Silmeden Önce :", favoriteBooks);
       if (response.status === 204) {
         setFavoriteBooks((prevFavoriteBooks) =>
           prevFavoriteBooks.filter((book) => book.id !== bookId)
         );
+        console.log("Sildikten sonra : ", favoriteBooks);
       } else {
         console.error("An error occurred while deleting the book.");
       }

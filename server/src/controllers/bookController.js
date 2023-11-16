@@ -72,9 +72,10 @@ const deleteOneBook = (req, res) => {
       data: { error: "Parameter ':bookId' can not be empty" },
     });
   }
+
   try {
     bookService.deleteOneBook(bookId);
-    res.send("Delete an existing book");
+    res.status(204).send({ status: "OK" });
   } catch (error) {
     res
       .status(error?.status || 500)

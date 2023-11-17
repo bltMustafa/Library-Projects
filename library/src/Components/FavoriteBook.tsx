@@ -44,12 +44,10 @@ function FavoriteBook() {
       const response = await axios.delete(
         `http://localhost:2080/api/v1/favoriteBooks/${bookId}`
       );
-      console.log("Silmeden Önce :", favoriteBooks);
       if (response.status === 204) {
         setFavoriteBooks((prevFavoriteBooks) =>
           prevFavoriteBooks.filter((book) => book.id !== bookId)
         );
-        console.log("Sildikten sonra : ", favoriteBooks);
       } else {
         console.error("An error occurred while deleting the book.");
       }

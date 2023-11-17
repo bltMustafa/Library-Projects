@@ -21,7 +21,7 @@ function Explore() {
       const magazinData = response.data.items;
       setMagazinData(magazinData);
     } catch (error) {
-      console.error("API isteği sırasında hata oluştu:", error);
+      console.error("Error during API request::", error);
     }
   };
 
@@ -34,7 +34,7 @@ function Explore() {
       const travelData = response.data.items;
       setTravelData(travelData);
     } catch (error) {
-      console.error("API isteği sırasında hata oluştu:", error);
+      console.error("Error during API request::", error);
     }
   };
 
@@ -47,7 +47,7 @@ function Explore() {
       const selfImprovementsData = response.data.items;
       setSelfImprovementData(selfImprovementsData);
     } catch (error) {
-      console.error("API isteği sırasında hata oluştu:", error);
+      console.error("Error during API request:", error);
     }
   };
 
@@ -74,9 +74,9 @@ function Explore() {
             "http://localhost:2080/api/v1/favoriteBooks",
             favoriteBook
           );
-          console.log("Kitap favorilere eklendi.", response.data);
+          console.log("Book added to favorites.", response.data);
         } catch (error) {
-          console.error("Kitap eklenirken hata oluştu.", error);
+          console.error("An error occurred while adding the book.", error);
         }
       }
     }

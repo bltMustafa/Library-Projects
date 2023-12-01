@@ -1,27 +1,6 @@
 {
   "favoriteBooks": [
     {
-      "title": "Learning React Native",
-      "thumbnail": "http://books.google.com/books/content?id=274fCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-      "id": "42daa3fd-4b73-44ec-8e97-2cc59be94ad1",
-      "createdAt": "16.11.2023 21:46:19",
-      "updatedAt": "16.11.2023 21:46:19"
-    },
-    {
-      "title": "REACT ve REACT NATIVE",
-      "thumbnail": "http://books.google.com/books/content?id=Ro9RDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-      "id": "fcd76501-7fd5-4e35-8d1d-2bc073b8d12c",
-      "createdAt": "16.11.2023 22:11:39",
-      "updatedAt": "16.11.2023 22:11:39"
-    },
-    {
-      "title": "React Projects",
-      "thumbnail": "http://books.google.com/books/content?id=2HvGDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-      "id": "017a58d6-1e2c-4127-89e1-4bc72e10ee69",
-      "createdAt": "16.11.2023 22:11:40",
-      "updatedAt": "16.11.2023 22:11:40"
-    },
-    {
       "title": "Self Improvement",
       "thumbnail": "http://books.google.com/books/content?id=D1njDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
       "id": "7dbde2a0-f92f-478e-9030-3c08f899c88a",
@@ -29,18 +8,46 @@
       "updatedAt": "16.11.2023 22:14:13"
     },
     {
-      "title": "The Rough Guide to Seoul (Travel Guide eBook)",
-      "thumbnail": "http://books.google.com/books/content?id=np6WDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
-      "id": "c95dfedd-7766-44a2-89ed-a7d913d746ee",
-      "createdAt": "16.11.2023 22:14:15",
-      "updatedAt": "16.11.2023 22:14:15"
-    },
-    {
       "title": "Travel Marketing, Tourism Economics and the Airline Product",
       "thumbnail": "http://books.google.com/books/content?id=13k4DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
       "id": "d4232db6-e241-42b8-a3c9-eb41ebe7b063",
       "createdAt": "16.11.2023 22:14:16",
       "updatedAt": "16.11.2023 22:14:16"
+    },
+    {
+      "title": "Kaşağı - Ömer Seyfettin",
+      "thumbnail": "http://books.google.com/books/content?id=0lVDDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "id": "799675b1-2dc5-4090-86a4-b07bf7c370a5",
+      "createdAt": "23.11.2023 15:39:13",
+      "updatedAt": "23.11.2023 15:39:13"
+    },
+    {
+      "title": "BİLSEM DENEME SINAVI 4",
+      "thumbnail": "http://books.google.com/books/content?id=k2IREAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "id": "77e395ed-5124-4ad2-9621-9cd28ea97034",
+      "createdAt": "23.11.2023 15:40:48",
+      "updatedAt": "23.11.2023 15:40:48"
+    },
+    {
+      "title": "React Js",
+      "thumbnail": "http://books.google.com/books/content?id=iEtazQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+      "id": "f7a234cb-ab40-44ff-82f6-e308c32a9b78",
+      "createdAt": "26.11.2023 00:55:13",
+      "updatedAt": "26.11.2023 00:55:13"
+    },
+    {
+      "title": "Essentials of Javascript",
+      "thumbnail": "http://books.google.com/books/content?id=A1fjDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "id": "9af9ca1e-c878-4090-aea1-0a06994a479e",
+      "createdAt": "30.11.2023 22:49:55",
+      "updatedAt": "30.11.2023 22:49:55"
+    },
+    {
+      "title": "Full-Stack Web Development with GraphQL and React",
+      "thumbnail": "http://books.google.com/books/content?id=GPBbEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+      "id": "2194189f-94aa-426f-bc09-7f8d196db89d",
+      "createdAt": "30.11.2023 22:49:57",
+      "updatedAt": "30.11.2023 22:49:57"
     }
   ]
 }
